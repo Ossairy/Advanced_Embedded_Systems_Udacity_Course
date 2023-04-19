@@ -1,0 +1,17 @@
+Control blinking of an LED for a user-defined ON and OFF periods
+
+Create a function in the App layer that takes as an input from the user a specific ON time and OFF time in seconds, lights a LED for the given ON time, and dim it for the given OFF time. It’s prohibited to use predefined delay functions, only timer driver functions can be used. This function implements implicitly the PWM module using Timer Overflow.
+
+deliver a schematic/block diagram according to your understanding of the requirements.
+Create a COTS folder for the whole course including a folder for each layer in the layered architectureto include MCAL,HAL,SERVICE,APPLICATION and LIBRARIES 
+
+    Create the GPIO driver from scratch using the sufficient interface,configure,private and program files
+    Create functions in GPIO driver that are needed to perform the required project functionality
+
+    Create the Timer driver from scratch using the sufficient interface,configure,private and program files
+    Create functions in Timer driver that are needed to perform the required project functionality
+    Creating a Timer Overflow ISR that performs the required functionality
+    Passing the ISR as a callback function from App Layer to Timer driver in MCAL layer
+
+    Creating the Interrupt driver from scratch using the sufficient interface,configure,private and program files
+    Create functions in Interrupt driver that are needed to perform the required project functionality
