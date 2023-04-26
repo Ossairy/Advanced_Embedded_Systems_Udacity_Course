@@ -7,7 +7,8 @@ The first project is an ARM project :
   After Implementing the required driver the project require using those driver to control LED PWM Signal applied on TM4C123GH6PM Simulator using Kiel software.
 
 The second project is a FreeRTOS project :
-    the project aim is to implement Earliest DeadLine first Schedular on FreeRTOS.
+   - the project aim is to implement Earliest DeadLine first Schedular on FreeRTOS.
+
 The third project an Embedded System Design project :
     - Implement fully static design for automotive door control system design.
     - Implement fully dynamic design for automotive door control system design.
