@@ -5,6 +5,7 @@ The first project is an ARM project :
    - Implementing Interrupt driver
    - Implementing GPIO driver
    - Implementing Timer driver 
+  
   After Implementing the required driver the project require using those driver to control LED PWM Signal applied on TM4C123GH6PM Simulator using Kiel software.
 
 The second project is a FreeRTOS project :
